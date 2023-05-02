@@ -48,7 +48,7 @@ function addTodo(event) {
 }
 
 function deleteCheck(e) {
-  const item = e.target; //Tıklama eyleminin gerçekleştiği yeri gösterir
+  const item = e.target;
   //DELETE TODO
   if (item.classList[0] === "trash-btn") {
     const todo = item.parentElement;
@@ -62,12 +62,12 @@ function deleteCheck(e) {
   //CHECK MARK
   if (item.classList[0] === "complete-btn") {
     const todo = item.parentElement;
-    todo.classList.toggle("completed"); //toggle methodu todo'u completed classına sahipse classı siler yoksa ekler.
+    todo.classList.toggle("completed");
   }
 }
 
 function filterTodo(e) {
-  const todos = todoList.childNodes; //todoList'in bütün alt öğelerini seçtik.
+  const todos = todoList.childNodes;
   todos.forEach(function (todo) {
     switch (e.target.value) {
       case "all":
@@ -145,6 +145,6 @@ function removeLocalTodos(todo) {
     todos = JSON.parse(localStorage.getItem("todos"));
   }
   const todoIndex = todo.children[0].innerText;
-  todos.splice(todos.indexOf(todoIndex), 1); //sileceğimiz öğenin indeksini ve kaç öğe sileceğimizi yazıp splice methodu ile sildik.
+  todos.splice(todos.indexOf(todoIndex), 1);
   localStorage.setItem("todos", JSON.stringify(todos));
 }
