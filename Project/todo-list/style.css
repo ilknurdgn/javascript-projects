@@ -1,7 +1,7 @@
 * {
-  margin: 0; /*dış boşluk,padding iç boşluk*/
+  margin: 0; 
   padding: 0;
-  box-sizing: border-box; /*border-box genişliğe ve yüksekliğe paddingi ve sınırları dahil ederek hesaplar*/
+  box-sizing: border-box; 
 }
 
 body {
@@ -19,8 +19,8 @@ header,
 form {
   min-height: 20vh;
   display: flex;
-  justify-content: center; /*yatayda hizalamamızı sağlar*/
-  align-items: center; /*dikeyde hizalamamızı sağlar*/
+  justify-content: center;
+  align-items: center;
 }
 
 form input,
@@ -66,7 +66,7 @@ form button:hover {
 }
 
 .todo li {
-  flex: 1; /*yan yana yerleşmeyi sağlar*/
+  flex: 1;
 }
 
 .trash-btn,
