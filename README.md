@@ -7,3 +7,4 @@
 | 05  |      [Custom Video Player](./Project//custom-video-player/)       |    [Live Demo](https://645a0a2d7342584151f615a2--deluxe-caramel-1352a4.netlify.app/)     |
 | 06  | [Exchange Rate Calculator ](./Project//exchange-rate-calculator/) |    [Live Demo](https://645d179ad277b7035f7e3b26--inquisitive-elf-3ddcd4.netlify.app/)    |
 | 07  |    [DOM Array Methods Project ](./Project//dom-array-methods/)    |   [Live Demo](https://6463ce757f6a22068be8d44b--funny-cheesecake-433e26.netlify.app/)    |
+| 08  |       [Menu Slider & Modal](./Project//modal-menu-slider/)        |    [Live Demo](https://646765c7a1ba7402a14ff14d--jazzy-starlight-82645e.netlify.app/)    |
